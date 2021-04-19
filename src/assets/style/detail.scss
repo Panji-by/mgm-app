@@ -1,0 +1,34 @@
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  margin: 5%;
+  h2 {
+    color: goldenrod;
+  }
+}
+.little-image {
+  height: 500px;
+  .flex-container {
+    display: flex;
+    .wine-left {
+        background-color: goldenrod !important;
+        border-radius: 55%;
+        line-height: normal;
+        border: none;
+        color: white;
+        position: absolute;
+        left: 50px;
+        margin-top: -20%;
+      }
+  }
+
+}
+
+.diva {
+  padding-right: 20%;
+  width: 400px;
+  p {
+    color: goldenrod !important;
+  }
+}

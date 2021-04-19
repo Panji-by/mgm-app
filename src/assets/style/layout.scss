@@ -1,0 +1,83 @@
+.grid-container {
+  margin: 0% 10% !important;
+}
+
+.image-left {
+  flex-direction: row !important;
+  padding-bottom: -50px !important;
+  .awesome-wine-image {
+    width: 100px;
+    height: 200px;
+    // object-fit: cover;
+
+  }
+  .crad-left{
+    margin-right: -30px;
+  }
+  h5 {
+    color: rgb(100, 72, 0);
+  }
+  p {
+    margin-top: -10px !important;
+    line-height: 1.3;
+  }
+  h6{
+   margin-bottom: -20%;
+  }
+  .button-bookmark {
+    text-align: center;
+    background-color: white;
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: -10%;
+    padding-bottom: -5%;
+    border: none;
+    padding: none;
+  }
+  .testing{
+    margin-left: 50%;
+  }
+  .wine-left{
+    background-color: goldenrod;
+    border-radius:55%;
+    line-height: normal;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 50px;
+    margin-top: -20%;
+    // height: 40px;
+    // width: 26px;
+    // line-height: 40px;
+    // display: inline-block;
+    // text-align: center;
+    // margin-right: 6px;
+  }
+  // .position-left{
+  //   padding-right: -50px;
+  // }
+  .btn-gold {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: -5px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .btn-gold:hover {
+    background-color: gold;
+  }
+}
+
+.centered-modal{
+margin-top: 50%;
+}
+
+
