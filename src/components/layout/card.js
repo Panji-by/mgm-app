@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import ModalCartOk from "./modal";
-import { Container, Button, Modal, Row, Col } from "reactstrap";
+import { Container, Button, Modal, Row, Col,Spinner } from "reactstrap";
 import { useSelector, useDispatch } from "react-redux";
 import { getProductList } from "../../store/action/getProductList";
 import InfiniteScroll from "react-infinite-scroller";
@@ -93,7 +93,7 @@ console.log(id);
               style={{ width: "18rem;" }}
               key={data.id}
             >
-              <img className="awesome-wine-image" src={data.image}></img>
+              <img className="awesome-wine-image" src={data.image} onClick={()=> sendParam(data.id)}></img>
               <div className="card-body crad-left">
                 <div>
                   <div onClick={()=> sendParam(data.id)}>
@@ -152,7 +152,7 @@ console.log(id);
         {/* </InfiniteScroll>
         </div> */}
       </div>
-      <button id="infinite-scroll" onClick={hadleLoad}>Load More</button>
+      <Spinner color="secondary" /> <button id="infinite-scroll" onClick={hadleLoad}>Load More</button>
     </>
   );
 };

@@ -48,10 +48,18 @@ const DetailPage = () => {
             <div>
               <h5>S$ {json.price}</h5>
             </div>
-            <div className="row testing" style={{ marginLeft: "20%" }}>
+            <div className="row testing" style={{ marginLeft: "75%" }}>
               {json.qty < 5 ? (
                 <div className="col">
-                  <button className="wine-left">
+                  <button
+                    style={{
+                      backgroundColor: "goldenrod",
+                      borderRadius: "50%",
+                      border: "none",
+                      color: "white"
+                    }}
+                    className="wine-left"
+                  >
                     {json.qty}
                     <br />
                     Left
@@ -62,9 +70,10 @@ const DetailPage = () => {
           </div>
           <button
             href="#"
-            style={{ marginBottom: "6%" }}
+            style={{ marginBottom: "-1%", marginLeft: "70%",}}
             className="btn-gold"
             onClick={toggleModalCart}
+            
           >
             ADD TO CART
           </button>
@@ -74,7 +83,9 @@ const DetailPage = () => {
               color: "goldenrod",
               border: "none",
               padding: "none",
+              marginLeft: "2%",
               backgroundColor: "white",
+              marginBottom: "-10%"
             }}
             className="button-bookmark fa-2x"
             onClick={toggleModalBook}

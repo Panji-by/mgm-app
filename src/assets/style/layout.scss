@@ -5,6 +5,9 @@
 .image-left {
   flex-direction: row !important;
   padding-bottom: -50px !important;
+  :hover{
+    cursor: pointer;
+  }
   .awesome-wine-image {
     width: 100px;
     height: 200px;
@@ -39,6 +42,7 @@
   }
   .testing{
     margin-left: 50%;
+    color: goldenrod;
   }
   .wine-left{
     background-color: goldenrod;

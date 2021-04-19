@@ -19,7 +19,7 @@
         color: white;
         position: absolute;
         left: 50px;
-        margin-top: -20%;
+        margin-top: 10%;
       }
   }
 
@@ -30,5 +30,37 @@
   width: 400px;
   p {
     color: goldenrod !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .little-image  {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .diva {
+    padding-right: 25%;
+  }
+}
+
+@media (max-width: 1008px) {
+  
+}
+
+@media (max-width: 576px) {
+  .little-image  {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  .diva {
+    font-size: 10px;
+    padding-right: 2%;
+  }
+  .shadow{
+    text-align: center;
   }
 }
