@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.button-bookmark{
+  border: none;
+  background-color: white;
+  color: goldenrod;
+}
+
+button:visited { 
+  color: gold; }
+button:focus { 
+  color: greenyellow; }

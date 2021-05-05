@@ -1,14 +1,10 @@
 import './App.css';
-import Routes from './router/router'
-import {Provider} from 'react-redux';
-import store from './store/index'
+import Card from "./list/card"
 
 function App() {
   return (
     <>
-    <Provider store={store}>
-      <Routes />
-    </Provider>
+<Card />
     </>
   );
 }
